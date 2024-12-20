@@ -30,3 +30,20 @@ C:\Users\MasterSheva\Desktop\Курсова робота\obj\Debug\net8.0-window
 C:\Users\MasterSheva\Desktop\Курсова робота\obj\Debug\net8.0-windows\Курсова робота.pdb
 C:\Users\MasterSheva\Desktop\Курсова робота\obj\Debug\net8.0-windows\Курсова робота.genruntimeconfig.cache
 C:\Users\MasterSheva\Desktop\Курсова робота\obj\Debug\net8.0-windows\ref\Курсова робота.dll
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Курсова робота.exe
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Курсова робота.deps.json
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Курсова робота.runtimeconfig.json
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Курсова робота.dll
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Курсова робота.pdb
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.Form1.resources
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.csproj.GenerateResource.cache
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.AssemblyInfoInputs.cache
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.AssemblyInfo.cs
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.csproj.CoreCompileInputs.cache
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.sourcelink.json
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.dll
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\refint\Курсова робота.dll
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.pdb
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.genruntimeconfig.cache
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\ref\Курсова робота.dll

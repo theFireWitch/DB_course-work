@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\Курсова робота.csproj": {}
+    "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\DB_course-work\\Курсова робота.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\Курсова робота.csproj": {
+    "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\DB_course-work\\Курсова робота.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\Курсова робота.csproj",
+        "projectUniqueName": "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\DB_course-work\\Курсова робота.csproj",
         "projectName": "Курсова робота",
-        "projectPath": "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\Курсова робота.csproj",
+        "projectPath": "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\DB_course-work\\Курсова робота.csproj",
         "packagesPath": "C:\\Users\\MasterSheva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\obj\\",
+        "outputPath": "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\DB_course-work\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MasterSheva\\AppData\\Roaming\\NuGet\\NuGet.Config",
