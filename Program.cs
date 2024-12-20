@@ -1,4 +1,4 @@
-//using Neo4j.Driver;
+using Neo4j.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Курсова_робота
 {
-    internal static class Program
-
+    public class Neo4jExample
     {
-        /*
         private static IDriver _driver;
 
         // Підключення до бази даних Neo4j
@@ -23,7 +21,7 @@ namespace Курсова_робота
         {
             _driver.Dispose();
         }
-       
+
         // Створення вузлів і зв'язків між ними
         public void CreateNodesAndRelationships()
         {
@@ -49,37 +47,23 @@ namespace Курсова_робота
                 ");
             }
         }
-         */
 
 
+
+    }
+    internal static class Program
+    {
         public static void Main(string[] args)
         {
-            /*
+            
             var uri = "bolt://localhost:7687";
             var user = "neo4j";   // Введіть ваш логін
             var password = "neo4j4545";  // Введіть ваш пароль
 
             var example = new Neo4jExample(uri, user, password);
 
-            try
-            {
-                // Створення вузлів і зв'язків
-                //example.CreateNodesAndRelationships();
-                //Console.WriteLine("Вузли та зв'язки створені успішно.");
-
-                // Виведення всіх ланцюжків для вузлів типу FirstType
-                //example.PrintChainsForNodeType("FirstType");
-
-                // Для вузлів другого типу (можна розкоментувати)
-                // example.PrintChainsForNodeType("SecondType");
-
-            }
-            finally
-            {
-                // Закриття драйвера після завершення
-                example.Close();
-            }
-            */
+            
+            
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }

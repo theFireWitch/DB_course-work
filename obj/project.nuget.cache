@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dtCiYy4og9FD4ZWHzusfie8IVnTqClmcOpBEioEMGTb2SLe1nGrA12ikfMx3c37GrLsd/9zfW/drCxxvPnu87Q==",
+  "dgSpecHash": "tUBYYubxuUT7Lon4s3U8Mh3GEQbJtq/O9Rmcr+Gu/C2SWejZzpOVWGYTDvsxvZ1OR49VbIdlN8EkKtFEfAGJ5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\MasterSheva\\Desktop\\Курсова робота\\DB_course-work\\Курсова робота.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MasterSheva\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "C:\\Users\\MasterSheva\\.nuget\\packages\\neo4j.driver\\5.27.0\\neo4j.driver.5.27.0.nupkg.sha512",
+    "C:\\Users\\MasterSheva\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\MasterSheva\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

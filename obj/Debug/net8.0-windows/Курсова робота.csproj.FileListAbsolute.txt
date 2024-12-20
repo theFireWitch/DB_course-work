@@ -47,3 +47,8 @@ C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debu
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.pdb
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.genruntimeconfig.cache
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\ref\Курсова робота.dll
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Neo4j.Driver.dll
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.csproj.AssemblyReference.cache
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова .4B452624.Up2Date
