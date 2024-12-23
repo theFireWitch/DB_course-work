@@ -1,8 +1,12 @@
 using Neo4j.Driver;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data;
+using System.Windows.Forms;
 
 namespace Курсова_робота
 {
@@ -51,6 +55,8 @@ namespace Курсова_робота
 
 
     }
+
+    
     internal static class Program
     {
         public static void Main(string[] args)
@@ -65,7 +71,7 @@ namespace Курсова_робота
             
             
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new login());
         }
     }
 }

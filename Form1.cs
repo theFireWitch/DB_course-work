@@ -1,25 +1,38 @@
+using MySql.Data.MySqlClient;
+using System.Data;
+
 namespace Курсова_робота
 {
     public partial class Form1 : Form
     {
+
+        string connectionString = "Server=localhost;Port=3306;Database=coursework;Uid=root;Pwd=;";
         public Form1()
         {
             InitializeComponent();
-            
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.BackColor = Color.LightBlue;
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.BackColor = Color.LightGreen;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var uri = "bolt://localhost:7687";
+
+
+            string query = "SELECT * FROM students";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Виконання запиту
+                MySqlDataAdapter adapter = new MySqlDataAdapter(query, connection);
+                DataTable table = new DataTable();
+                adapter.Fill(table);
+
+                // Відображення даних у DataGridView
+                dataGridView1.DataSource = table;
+            }
+
+            /*var uri = "bolt://localhost:7687";
             var user = "neo4j";   // Введіть ваш логін
             var password = "neo4j4545";  // Введіть ваш пароль
 
@@ -41,7 +54,40 @@ namespace Курсова_робота
             {
                 // Закриття драйвера після завершення
                 example.Close();
+            }*/
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM students";
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                using (MySqlCommand command = new MySqlCommand("GetStudentInfo", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@student_id", 1);
+                    // Виконання процедури та отримання даних
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+                    DataTable table = new DataTable();
+                    adapter.Fill(table);
+
+                    // Відображення даних у DataGridView
+                    dataGridView1.DataSource = table;
+                }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            login frmLogin = new login();
+            frmLogin.ShowDialog();
         }
     }
 }
