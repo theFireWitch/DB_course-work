@@ -27,28 +27,38 @@ namespace Курсова_робота
             var user = "neo4j";
             var password = "neo4j4545";
             var example = new Neo4jExample(uri, user, password);
-            string nodeIdInput = login_textbox.Text;
-            if (int.TryParse(nodeIdInput, out int nodeId))
+            string nodelogin = login_textbox.Text;
+            string nodepassword = password_box.Text;
+            bool sucses = true;
+            if (nodelogin != null && nodepassword != null)
             {
-                var nodeLabels = await example.GetNodeLabelsById(nodeId);
-                foreach (var label in nodeLabels)
+                var nodeLabels = await example.LogInId(nodelogin, nodepassword, sucses);
+                if(sucses)
                 {
-                    if(label != null)
+                    foreach (var label in nodeLabels)
                     {
-                        if(label == "Teacher")
+                        if (label != null)
                         {
-                            professor frmLogin1 = new professor();
-                            frmLogin1.ShowDialog();
-                        }
-                        else if(label == "Student")
-                        {
-                            Student frmLogin1 = new Student();
-                            frmLogin1.ShowDialog();
-                        }
-                        else if (label == "Admin")
-                        {
-                            Admin frmLogin1 = new Admin();
-                            frmLogin1.ShowDialog();
+                            if (label == "Teacher")
+                            {
+                                professor frmLogin1 = new professor();
+                                frmLogin1.ShowDialog();
+                            }
+                            else if (label == "Student")
+                            {
+                                Student frmLogin1 = new Student();
+                                frmLogin1.ShowDialog();
+                            }
+                            else if (label == "Admin")
+                            {
+                                Admin frmLogin1 = new Admin();
+                                frmLogin1.ShowDialog();
+                            }
+                            else
+                            {
+                                ERROR frmLogin1 = new ERROR("Неправильний логін");
+                                frmLogin1.ShowDialog();
+                            }
                         }
                         else
                         {
@@ -56,16 +66,16 @@ namespace Курсова_робота
                             frmLogin1.ShowDialog();
                         }
                     }
-                    else
-                    {
-                        ERROR frmLogin1 = new ERROR("Неправильний логін");
-                        frmLogin1.ShowDialog();
-                    }
+                }
+                else
+                {
+                    ERROR frmLogin1 = new ERROR("Неправильний логін");
+                    frmLogin1.ShowDialog();
                 }
             }
             else
             {
-                ERROR frmLogin1 = new ERROR("Неправильний логін");
+                ERROR frmLogin1 = new ERROR("Введіть данні");
                 frmLogin1.ShowDialog();
             }
         }

@@ -52,38 +52,40 @@ namespace Курсова_робота
             }
         }
 
-        public async Task<List<string>> GetNodeLabelsById(int nodeId)
+        public async Task<List<string>> LogInId(string nodeId, string nodepass, bool sucses)
         {
             var nodeLabels = new List<string>();
 
             var query = @"
             MATCH (n)
-            WHERE id(n) = $id
+            WHERE n.ID = $id AND n.password = $pass
             RETURN labels(n) AS nodeLabels
         ";
-
             await using var session = _driver.AsyncSession();
 
             try
             {
-                var result = await session.RunAsync(query, new { id = nodeId });
+                var result = await session.RunAsync(query, new { id = nodeId, pass = nodepass });
 
                 await foreach (var record in result)
                 {
                     var labels = record["nodeLabels"].As<List<string>>();
                     nodeLabels.AddRange(labels);
+                    foreach (var label in nodeLabels)
+                    {
+                        if (label == "Teacher" || label == "Student" || label == "Admin") sucses = true;
+                        else sucses = false;
+                    }
                 }
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error: {ex.Message}");
             }
-
             return nodeLabels;
         }
     }
-
-    
     internal static class Program
     {
         public static void Main(string[] args)
@@ -102,7 +104,6 @@ namespace Курсова_робота
         }
     }
 }
-
 
 /*
  public async Task GetNodeRelationships(int nodeId)

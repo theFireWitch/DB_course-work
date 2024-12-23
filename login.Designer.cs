@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             login_textbox = new TextBox();
-            textBox1 = new TextBox();
+            password_box = new TextBox();
             button_login = new Button();
             login_label = new Label();
             password_label = new Label();
@@ -43,12 +43,12 @@
             login_textbox.Size = new Size(377, 27);
             login_textbox.TabIndex = 0;
             // 
-            // textBox1
+            // password_box
             // 
-            textBox1.Location = new Point(299, 314);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(377, 27);
-            textBox1.TabIndex = 1;
+            password_box.Location = new Point(299, 314);
+            password_box.Name = "password_box";
+            password_box.Size = new Size(377, 27);
+            password_box.TabIndex = 1;
             // 
             // button_login
             // 
@@ -102,7 +102,7 @@
             Controls.Add(password_label);
             Controls.Add(login_label);
             Controls.Add(button_login);
-            Controls.Add(textBox1);
+            Controls.Add(password_box);
             Controls.Add(login_textbox);
             Name = "login";
             StartPosition = FormStartPosition.CenterScreen;
@@ -114,7 +114,7 @@
         #endregion
 
         private TextBox login_textbox;
-        private TextBox textBox1;
+        private TextBox password_box;
         private Button button_login;
         private Label login_label;
         private Label password_label;
