@@ -59,7 +59,7 @@
             button_login.TabIndex = 2;
             button_login.Text = "Увійти";
             button_login.UseVisualStyleBackColor = true;
-            button_login.Click += button_login_Click_1;
+            button_login.Click += button_login_Click_3;
             // 
             // login_label
             // 
@@ -105,7 +105,8 @@
             Controls.Add(textBox1);
             Controls.Add(login_textbox);
             Name = "login";
-            Text = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Log in";
             ResumeLayout(false);
             PerformLayout();
         }

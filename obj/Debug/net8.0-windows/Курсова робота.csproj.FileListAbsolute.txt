@@ -35,7 +35,6 @@ C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debu
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Курсова робота.runtimeconfig.json
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Курсова робота.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Курсова робота.pdb
-C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.Form1.resources
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.csproj.GenerateResource.cache
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.AssemblyInfoInputs.cache
@@ -66,3 +65,7 @@ C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debu
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.login.resources
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.Admin.resources
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.professor.resources
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.Student.resources
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.ERROR.resources

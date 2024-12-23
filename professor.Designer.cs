@@ -1,6 +1,6 @@
 ﻿namespace Курсова_робота
 {
-    partial class Form1
+    partial class professor
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,7 +30,6 @@
         {
             button3 = new Button();
             dataGridView1 = new DataGridView();
-            mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             button1 = new Button();
             button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -38,9 +37,9 @@
             // 
             // button3
             // 
-            button3.Location = new Point(179, 308);
+            button3.Location = new Point(698, 21);
             button3.Name = "button3";
-            button3.Size = new Size(115, 29);
+            button3.Size = new Size(135, 38);
             button3.TabIndex = 2;
             button3.Text = "table students";
             button3.UseVisualStyleBackColor = true;
@@ -49,25 +48,18 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 27);
+            dataGridView1.Location = new Point(13, 83);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1032, 226);
+            dataGridView1.Size = new Size(1032, 503);
             dataGridView1.TabIndex = 3;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // mySqlCommand1
-            // 
-            mySqlCommand1.CacheAge = 0;
-            mySqlCommand1.Connection = null;
-            mySqlCommand1.EnableCaching = false;
-            mySqlCommand1.Transaction = null;
-            // 
             // button1
             // 
-            button1.Location = new Point(41, 308);
+            button1.Location = new Point(556, 21);
             button1.Name = "button1";
-            button1.Size = new Size(115, 29);
+            button1.Size = new Size(136, 38);
             button1.TabIndex = 4;
             button1.Text = "prosedure";
             button1.UseVisualStyleBackColor = true;
@@ -75,25 +67,25 @@
             // 
             // button2
             // 
-            button2.Location = new Point(708, 412);
+            button2.Location = new Point(839, 21);
             button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 5;
-            button2.Text = "form2";
+            button2.Size = new Size(134, 38);
+            button2.TabIndex = 6;
+            button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
-            // Form1
+            // professor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1056, 596);
-            Controls.Add(button2);
+            ClientSize = new Size(1057, 598);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(button3);
-            Name = "Form1";
-            Text = "Form1";
+            Controls.Add(button2);
+            Name = "professor";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Professor";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
@@ -102,7 +94,6 @@
 
         private Button button3;
         private DataGridView dataGridView1;
-        private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
         private Button button1;
         private Button button2;
     }

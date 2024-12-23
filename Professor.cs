@@ -3,21 +3,17 @@ using System.Data;
 
 namespace Курсова_робота
 {
-    public partial class Form1 : Form
+    public partial class professor : Form
     {
 
-        //string connectionString = "Server=localhost;Port=3306;Database=coursework;Uid=root;Pwd=;";
         string connectionString = "Server=127.0.0.1;Port=3306;Database=coursework;Uid=root;Pwd=root-pw;SslMode=none;";
-        public Form1()
+        public professor()
         {
             InitializeComponent();
-
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
-
             string query = "SELECT * FROM students";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -90,5 +86,7 @@ namespace Курсова_робота
             login frmLogin = new login();
             frmLogin.ShowDialog();
         }
+
+
     }
 }
