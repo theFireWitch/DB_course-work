@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace Курсова_робота
 {
@@ -98,20 +99,28 @@ namespace Курсова_робота
         private void button4_Click(object sender, EventArgs e)
         {
             string group = textBox1.Text;
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            if (group == "")
             {
-                connection.Open();
-                using (MySqlCommand command = new MySqlCommand("GetStudentMarksByGroup", connection))
+                ERROR frmLogin1 = new ERROR("Введіть дані!");
+                frmLogin1.ShowDialog();
+            }
+            else
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
-                    command.CommandType = CommandType.StoredProcedure;
-                    command.Parameters.AddWithValue("@in_group", group);
-                    // Виконання процедури та отримання даних
-                    MySqlDataAdapter adapter = new MySqlDataAdapter(command);
-                    DataTable table = new DataTable();
-                    adapter.Fill(table);
+                    connection.Open();
+                    using (MySqlCommand command = new MySqlCommand("GetStudentMarksByGroup", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddWithValue("@in_group", group);
+                        // Виконання процедури та отримання даних
+                        MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+                        DataTable table = new DataTable();
+                        adapter.Fill(table);
 
-                    // Відображення даних у DataGridView
-                    dataGridView1.DataSource = table;
+                        // Відображення даних у DataGridView
+                        dataGridView1.DataSource = table;
+                    }
                 }
             }
         }
@@ -119,7 +128,7 @@ namespace Курсова_робота
         {
             groupBox1.Visible = false;
             groupBox2.Visible = false;
-            groupBox3.Visible = true;
+            groupBox3.Visible = true; 
             groupBox4.Visible = false;
         }
         private void button8_Click(object sender, EventArgs e)
@@ -149,22 +158,35 @@ namespace Курсова_робота
         private void button10_Click(object sender, EventArgs e)
         {
             string group = textBox2.Text;
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            if (group == "")
             {
-                connection.Open();
-                using (MySqlCommand command = new MySqlCommand("finalCalculateScholarship", connection))
+                ERROR frmLogin1 = new ERROR("Введіть дані!");
+                frmLogin1.ShowDialog();
+            }
+            else
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
-                    command.CommandType = CommandType.StoredProcedure;
-                    command.Parameters.AddWithValue("@group_code_in", group);
-                    // Виконання процедури та отримання даних
-                    MySqlDataAdapter adapter = new MySqlDataAdapter(command);
-                    DataTable table = new DataTable();
-                    adapter.Fill(table);
+                    connection.Open();
+                    using (MySqlCommand command = new MySqlCommand("finalCalculateScholarship", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddWithValue("@group_code_in", group);
+                        // Виконання процедури та отримання даних
+                        MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+                        DataTable table = new DataTable();
+                        adapter.Fill(table);
 
-                    // Відображення даних у DataGridView
-                    dataGridView1.DataSource = table;
+                        // Відображення даних у DataGridView
+                        dataGridView1.DataSource = table;
+                    }
                 }
             }
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

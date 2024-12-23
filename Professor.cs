@@ -98,22 +98,30 @@ namespace Курсова_робота
         private void button5_Click(object sender, EventArgs e)
         {
             string clas = textBox4.Text;
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            if (clas == "")
             {
-                connection.Open();
-                using (MySqlCommand command = new MySqlCommand("GetStudentsProfAndClass", connection))
+                ERROR frmLogin1 = new ERROR("Введіть дані!");
+                frmLogin1.ShowDialog();
+            }
+            else
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
-                    command.CommandType = CommandType.StoredProcedure;
+                    connection.Open();
+                    using (MySqlCommand command = new MySqlCommand("GetStudentsProfAndClass", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
 
-                    command.Parameters.AddWithValue("@prof_id_in", TeacherID);
-                    command.Parameters.AddWithValue("@class_id_in", clas);
-                    // Виконання процедури та отримання даних
-                    MySqlDataAdapter adapter = new MySqlDataAdapter(command);
-                    DataTable table = new DataTable();
-                    adapter.Fill(table);
+                        command.Parameters.AddWithValue("@prof_id_in", TeacherID);
+                        command.Parameters.AddWithValue("@class_id_in", clas);
+                        // Виконання процедури та отримання даних
+                        MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+                        DataTable table = new DataTable();
+                        adapter.Fill(table);
 
-                    // Відображення даних у DataGridView
-                    dataGridView1.DataSource = table;
+                        // Відображення даних у DataGridView
+                        dataGridView1.DataSource = table;
+                    }
                 }
             }
         }

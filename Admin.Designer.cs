@@ -37,9 +37,6 @@
             button4 = new Button();
             dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
-            button6 = new Button();
-            button5 = new Button();
-            button7 = new Button();
             groupBox3 = new GroupBox();
             groupBox4 = new GroupBox();
             button10 = new Button();
@@ -47,6 +44,9 @@
             label2 = new Label();
             button9 = new Button();
             button8 = new Button();
+            button6 = new Button();
+            button5 = new Button();
+            button7 = new Button();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
@@ -145,36 +145,6 @@
             groupBox1.TabStop = false;
             groupBox1.Visible = false;
             // 
-            // button6
-            // 
-            button6.Location = new Point(516, 27);
-            button6.Name = "button6";
-            button6.Size = new Size(241, 34);
-            button6.TabIndex = 0;
-            button6.Text = "Для кожного студента";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(269, 27);
-            button5.Name = "button5";
-            button5.Size = new Size(241, 34);
-            button5.TabIndex = 0;
-            button5.Text = "В кожній групі";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
-            // 
-            // button7
-            // 
-            button7.Location = new Point(775, 28);
-            button7.Name = "button7";
-            button7.Size = new Size(241, 38);
-            button7.TabIndex = 0;
-            button7.Text = "Сформувати звіт";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
-            // 
             // groupBox3
             // 
             groupBox3.Controls.Add(groupBox4);
@@ -186,6 +156,7 @@
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Visible = false;
+            groupBox3.Enter += groupBox3_Enter;
             // 
             // groupBox4
             // 
@@ -243,6 +214,36 @@
             button8.Text = " Список на відрахування";
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(516, 27);
+            button6.Name = "button6";
+            button6.Size = new Size(241, 34);
+            button6.TabIndex = 0;
+            button6.Text = "Для кожного студента";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(269, 27);
+            button5.Name = "button5";
+            button5.Size = new Size(241, 34);
+            button5.TabIndex = 0;
+            button5.Text = "В кожній групі";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(775, 28);
+            button7.Name = "button7";
+            button7.Size = new Size(241, 38);
+            button7.TabIndex = 0;
+            button7.Text = "Сформувати звіт";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // Admin
             // 
