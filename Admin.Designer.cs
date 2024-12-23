@@ -41,12 +41,12 @@
             button5 = new Button();
             button7 = new Button();
             groupBox3 = new GroupBox();
+            groupBox4 = new GroupBox();
+            button10 = new Button();
             textBox2 = new TextBox();
             label2 = new Label();
-            button10 = new Button();
             button9 = new Button();
             button8 = new Button();
-            groupBox4 = new GroupBox();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
@@ -100,7 +100,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(717, 30);
+            textBox1.Location = new Point(192, 31);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 27);
             textBox1.TabIndex = 2;
@@ -108,7 +108,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(504, 34);
+            label1.Location = new Point(22, 34);
             label1.Name = "label1";
             label1.Size = new Size(154, 20);
             label1.TabIndex = 1;
@@ -116,11 +116,11 @@
             // 
             // button4
             // 
-            button4.Location = new Point(896, 30);
+            button4.Location = new Point(861, 29);
             button4.Name = "button4";
-            button4.Size = new Size(127, 29);
+            button4.Size = new Size(143, 29);
             button4.TabIndex = 0;
-            button4.Text = "Подивитися";
+            button4.Text = "Переглянути";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
@@ -135,6 +135,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(groupBox3);
             groupBox1.Controls.Add(button6);
             groupBox1.Controls.Add(button5);
             groupBox1.Location = new Point(12, 72);
@@ -179,16 +180,37 @@
             groupBox3.Controls.Add(groupBox4);
             groupBox3.Controls.Add(button9);
             groupBox3.Controls.Add(button8);
-            groupBox3.Location = new Point(12, 72);
+            groupBox3.Location = new Point(0, 3);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1033, 77);
+            groupBox3.Size = new Size(1033, 74);
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Visible = false;
             // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(button10);
+            groupBox4.Controls.Add(textBox2);
+            groupBox4.Controls.Add(label2);
+            groupBox4.Location = new Point(528, 0);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(505, 77);
+            groupBox4.TabIndex = 4;
+            groupBox4.TabStop = false;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(320, 31);
+            button10.Name = "button10";
+            button10.Size = new Size(143, 29);
+            button10.TabIndex = 0;
+            button10.Text = "Переглянути";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
             // textBox2
             // 
-            textBox2.Location = new Point(179, 25);
+            textBox2.Location = new Point(179, 31);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(125, 27);
             textBox2.TabIndex = 2;
@@ -196,21 +218,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(19, 29);
+            label2.Location = new Point(19, 34);
             label2.Name = "label2";
             label2.Size = new Size(154, 20);
             label2.TabIndex = 1;
             label2.Text = "Введіть номер групи";
-            // 
-            // button10
-            // 
-            button10.Location = new Point(325, 25);
-            button10.Name = "button10";
-            button10.Size = new Size(143, 29);
-            button10.TabIndex = 0;
-            button10.Text = "Переглянути";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
             // 
             // button9
             // 
@@ -232,23 +244,11 @@
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
             // 
-            // groupBox4
-            // 
-            groupBox4.Controls.Add(button10);
-            groupBox4.Controls.Add(textBox2);
-            groupBox4.Controls.Add(label2);
-            groupBox4.Location = new Point(528, 0);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(505, 77);
-            groupBox4.TabIndex = 4;
-            groupBox4.TabStop = false;
-            // 
             // Admin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1057, 544);
-            Controls.Add(groupBox3);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
             Controls.Add(groupBox2);

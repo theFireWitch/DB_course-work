@@ -124,6 +124,7 @@ namespace Курсова_робота
         }
         private void button8_Click(object sender, EventArgs e)
         {
+            groupBox4.Visible = false;
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();

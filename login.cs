@@ -41,7 +41,7 @@ namespace Курсова_робота
                         {
                             if (label == "Teacher")
                             {
-                                professor frmLogin1 = new professor();
+                                professor frmLogin1 = new professor(nodelogin);
                                 frmLogin1.ShowDialog();
                             }
                             else if (label == "Student")
