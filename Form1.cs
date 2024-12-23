@@ -6,7 +6,8 @@ namespace Курсова_робота
     public partial class Form1 : Form
     {
 
-        string connectionString = "Server=localhost;Port=3306;Database=coursework;Uid=root;Pwd=;";
+        //string connectionString = "Server=localhost;Port=3306;Database=coursework;Uid=root;Pwd=;";
+        string connectionString = "Server=127.0.0.1;Port=3306;Database=coursework;Uid=root;Pwd=root-pw;SslMode=none;";
         public Form1()
         {
             InitializeComponent();
