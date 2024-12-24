@@ -37,15 +37,15 @@
             button4 = new Button();
             dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
+            button6 = new Button();
+            button5 = new Button();
             groupBox3 = new GroupBox();
+            button9 = new Button();
             groupBox4 = new GroupBox();
             button10 = new Button();
             textBox2 = new TextBox();
             label2 = new Label();
-            button9 = new Button();
             button8 = new Button();
-            button6 = new Button();
-            button5 = new Button();
             button7 = new Button();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -135,7 +135,6 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(groupBox3);
             groupBox1.Controls.Add(button6);
             groupBox1.Controls.Add(button5);
             groupBox1.Location = new Point(12, 72);
@@ -145,18 +144,48 @@
             groupBox1.TabStop = false;
             groupBox1.Visible = false;
             // 
+            // button6
+            // 
+            button6.Location = new Point(516, 27);
+            button6.Name = "button6";
+            button6.Size = new Size(241, 34);
+            button6.TabIndex = 0;
+            button6.Text = "Для кожного студента";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(269, 27);
+            button5.Name = "button5";
+            button5.Size = new Size(241, 34);
+            button5.TabIndex = 0;
+            button5.Text = "В кожній групі";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(groupBox4);
             groupBox3.Controls.Add(button9);
+            groupBox3.Controls.Add(groupBox4);
             groupBox3.Controls.Add(button8);
-            groupBox3.Location = new Point(0, 3);
+            groupBox3.Location = new Point(12, 75);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(1033, 74);
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Visible = false;
             groupBox3.Enter += groupBox3_Enter;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(269, 30);
+            button9.Name = "button9";
+            button9.Size = new Size(241, 29);
+            button9.TabIndex = 0;
+            button9.Text = "Список на стипендію";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // groupBox4
             // 
@@ -168,6 +197,7 @@
             groupBox4.Size = new Size(505, 77);
             groupBox4.TabIndex = 4;
             groupBox4.TabStop = false;
+            groupBox4.Visible = false;
             // 
             // button10
             // 
@@ -195,16 +225,6 @@
             label2.TabIndex = 1;
             label2.Text = "Введіть номер групи";
             // 
-            // button9
-            // 
-            button9.Location = new Point(269, 30);
-            button9.Name = "button9";
-            button9.Size = new Size(241, 29);
-            button9.TabIndex = 0;
-            button9.Text = "Список на стипендію";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click;
-            // 
             // button8
             // 
             button8.Location = new Point(22, 30);
@@ -214,26 +234,6 @@
             button8.Text = " Список на відрахування";
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
-            // 
-            // button6
-            // 
-            button6.Location = new Point(516, 27);
-            button6.Name = "button6";
-            button6.Size = new Size(241, 34);
-            button6.TabIndex = 0;
-            button6.Text = "Для кожного студента";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(269, 27);
-            button5.Name = "button5";
-            button5.Size = new Size(241, 34);
-            button5.TabIndex = 0;
-            button5.Text = "В кожній групі";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
             // 
             // button7
             // 
@@ -249,7 +249,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1057, 544);
+            ClientSize = new Size(1057, 543);
+            Controls.Add(groupBox3);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
             Controls.Add(groupBox2);

@@ -33,10 +33,6 @@
             button1 = new Button();
             button2 = new Button();
             groupBox2 = new GroupBox();
-            groupBox3 = new GroupBox();
-            textBox4 = new TextBox();
-            label4 = new Label();
-            button5 = new Button();
             label3 = new Label();
             label2 = new Label();
             textBox3 = new TextBox();
@@ -44,6 +40,10 @@
             textBox1 = new TextBox();
             label1 = new Label();
             button4 = new Button();
+            groupBox3 = new GroupBox();
+            textBox4 = new TextBox();
+            label4 = new Label();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -62,10 +62,10 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(13, 144);
+            dataGridView1.Location = new Point(12, 144);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1032, 442);
+            dataGridView1.Size = new Size(1032, 387);
             dataGridView1.TabIndex = 3;
             // 
             // button1
@@ -91,7 +91,6 @@
             // groupBox2
             // 
             groupBox2.BackColor = SystemColors.Control;
-            groupBox2.Controls.Add(groupBox3);
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(textBox3);
@@ -105,44 +104,6 @@
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Visible = false;
-            // 
-            // groupBox3
-            // 
-            groupBox3.Controls.Add(textBox4);
-            groupBox3.Controls.Add(label4);
-            groupBox3.Controls.Add(button5);
-            groupBox3.Location = new Point(1, 0);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1032, 73);
-            groupBox3.TabIndex = 8;
-            groupBox3.TabStop = false;
-            groupBox3.Visible = false;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(169, 27);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
-            textBox4.TabIndex = 2;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(26, 30);
-            label4.Name = "label4";
-            label4.Size = new Size(121, 20);
-            label4.TabIndex = 1;
-            label4.Text = "Введіть id класу:";
-            // 
-            // button5
-            // 
-            button5.Location = new Point(864, 26);
-            button5.Name = "button5";
-            button5.Size = new Size(138, 29);
-            button5.TabIndex = 0;
-            button5.Text = "Переглянути";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
             // 
             // label3
             // 
@@ -202,11 +163,50 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // groupBox3
+            // 
+            groupBox3.Controls.Add(textBox4);
+            groupBox3.Controls.Add(label4);
+            groupBox3.Controls.Add(button5);
+            groupBox3.Location = new Point(13, 65);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(1032, 73);
+            groupBox3.TabIndex = 8;
+            groupBox3.TabStop = false;
+            groupBox3.Visible = false;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(169, 27);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(125, 27);
+            textBox4.TabIndex = 2;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(26, 30);
+            label4.Name = "label4";
+            label4.Size = new Size(121, 20);
+            label4.TabIndex = 1;
+            label4.Text = "Введіть id класу:";
+            // 
+            // button5
+            // 
+            button5.Location = new Point(864, 26);
+            button5.Name = "button5";
+            button5.Size = new Size(138, 29);
+            button5.TabIndex = 0;
+            button5.Text = "Переглянути";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // professor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1057, 598);
+            ClientSize = new Size(1057, 543);
+            Controls.Add(groupBox3);
             Controls.Add(button2);
             Controls.Add(groupBox2);
             Controls.Add(button1);

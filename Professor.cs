@@ -11,7 +11,6 @@ namespace Курсова_робота
         {
             InitializeComponent();
             init(id);
-
         }
         private void init(string input)
         {
@@ -72,6 +71,11 @@ namespace Курсова_робота
                 ERROR frmLogin1 = new ERROR("Введіть дані!");
                 frmLogin1.ShowDialog();
             }
+            else if (!int.TryParse(clas, out int result) || !int.TryParse(stud, out int result2) || !int.TryParse(grade, out int result3))
+            {
+                ERROR frmLogin1 = new ERROR("Введіть правильні дані!");
+                frmLogin1.ShowDialog();
+            }
             else
             {
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -93,7 +97,6 @@ namespace Курсова_робота
                     }
                 }
             }
-            
         }
         private void button5_Click(object sender, EventArgs e)
         {
@@ -101,6 +104,11 @@ namespace Курсова_робота
             if (clas == "")
             {
                 ERROR frmLogin1 = new ERROR("Введіть дані!");
+                frmLogin1.ShowDialog();
+            }
+            else if(!int.TryParse(clas, out int result))
+            {
+                ERROR frmLogin1 = new ERROR("Введіть правильний id класу!");
                 frmLogin1.ShowDialog();
             }
             else

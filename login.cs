@@ -46,7 +46,7 @@ namespace Курсова_робота
                             }
                             else if (label == "Student")
                             {
-                                Student frmLogin1 = new Student();
+                                Student frmLogin1 = new Student(nodelogin);
                                 frmLogin1.ShowDialog();
                             }
                             else if (label == "Admin")
