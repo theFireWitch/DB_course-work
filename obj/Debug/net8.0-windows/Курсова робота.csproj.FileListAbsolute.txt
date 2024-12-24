@@ -50,14 +50,12 @@ C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debu
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Neo4j.Driver.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова робота.csproj.AssemblyReference.cache
-C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова .4B452624.Up2Date
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\Google.Protobuf.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\MySql.Data.dll
-C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\System.Text.Json.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\ZstdSharp.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
@@ -69,3 +67,4 @@ C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debu
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.professor.resources
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.Student.resources
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.ERROR.resources
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\_______ .4B452624.Up2Date

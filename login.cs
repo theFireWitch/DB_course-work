@@ -30,7 +30,7 @@ namespace Курсова_робота
             string nodelogin = login_textbox.Text;
             string nodepassword = password_box.Text;
             bool sucses = true;
-            if (nodelogin != null && nodepassword != null)
+            if (nodelogin != "" && nodepassword != "")
             {
                 var nodeLabels = await example.LogInId(nodelogin, nodepassword, sucses);
                 if(sucses)
