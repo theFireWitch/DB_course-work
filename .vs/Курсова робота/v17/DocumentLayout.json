@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|c:\\users\\mastersheva\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\db_course-work\\student.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|solutionrelative:student.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|solutionrelative:professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|c:\\users\\mastersheva\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\db_course-work\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E94C63A4-8106-4238-AF33-BF424AD3EE25}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,7 +58,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\login.cs",
               "RelativeDocumentMoniker": "login.cs",
@@ -62,12 +66,11 @@
               "RelativeToolTip": "login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T01:26:08.102Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Professor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Professor.cs",
               "RelativeDocumentMoniker": "Professor.cs",
@@ -75,12 +78,11 @@
               "RelativeToolTip": "Professor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-20T17:17:27.042Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Admin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Admin.cs",
               "RelativeDocumentMoniker": "Admin.cs",
@@ -88,8 +90,7 @@
               "RelativeToolTip": "Admin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T15:08:05.551Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -97,8 +98,8 @@
               "Title": "Student.cs [Design]",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Student.cs [Design]",
-              "RelativeToolTip": "Student.cs [Design]",
+              "ToolTip": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Student.cs [Design]*",
+              "RelativeToolTip": "Student.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T16:58:40.659Z",
               "IsPinned": true,
@@ -106,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "login.cs",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\login.cs",
               "RelativeDocumentMoniker": "login.cs",
@@ -115,12 +116,11 @@
               "ViewState": "AQIAAA8AAAAAAAAAAAAAADAAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T11:19:20.376Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -129,12 +129,11 @@
               "ViewState": "AQIAAGQAAAAAAAAAAAAswBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T16:40:15.278Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Admin.cs",
               "RelativeDocumentMoniker": "Admin.cs",
@@ -143,8 +142,7 @@
               "ViewState": "AQIAABgAAAAAAAAAAAAYwLcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T15:19:36.612Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -152,9 +150,9 @@
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAIwI8AAABEAAAA",
+              "ToolTip": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Student.cs*",
+              "RelativeToolTip": "Student.cs*",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAIwIwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T00:18:12.127Z",
               "EditorCaption": ""
@@ -162,6 +160,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Student.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Student.Designer.cs",
+              "RelativeDocumentMoniker": "Student.Designer.cs",
+              "ToolTip": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Student.Designer.cs",
+              "RelativeToolTip": "Student.Designer.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:20:00.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Professor.cs",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\Professor.cs",
               "RelativeDocumentMoniker": "Professor.cs",
@@ -169,12 +180,11 @@
               "RelativeToolTip": "Professor.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAAAE8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T17:17:36.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T17:17:36.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ERROR.cs",
               "DocumentMoniker": "C:\\Users\\MasterSheva\\Desktop\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DB_course-work\\ERROR.cs",
               "RelativeDocumentMoniker": "ERROR.cs",

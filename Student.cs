@@ -93,7 +93,7 @@ namespace Курсова_робота
         {
             groupBox1.Visible = false;
             groupBox2.Visible = true;
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
+           using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
                 using (MySqlCommand command = new MySqlCommand("GetStudParam", connection))
@@ -136,6 +136,9 @@ namespace Курсова_робота
                         command.Parameters.AddWithValue("@student_id_in", StudentID);
                         command.Parameters.AddWithValue("@social_activity_in", act);
                         command.Parameters.AddWithValue("@dormitory_in", dorm);
+                        MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+                        DataTable table = new DataTable();
+                        adapter.Fill(table);
                     }
                 }
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
