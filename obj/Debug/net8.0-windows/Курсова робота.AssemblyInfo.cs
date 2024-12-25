@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Курсова робота")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43a30802280daef5c00d12d2b02416ed9df6aea8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59b42a39371b35e6e1e28e64776f39cfe4ea3e74")]
 [assembly: System.Reflection.AssemblyProductAttribute("Курсова робота")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Курсова робота")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

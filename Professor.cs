@@ -96,6 +96,22 @@ namespace Курсова_робота
                         dataGridView1.DataSource = table;
                     }
                 }
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    using (MySqlCommand command = new MySqlCommand("GetStudentsProf", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddWithValue("@prof_id_in", TeacherID);
+                        // Виконання процедури та отримання даних
+                        MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+                        DataTable table = new DataTable();
+                        adapter.Fill(table);
+
+                        // Відображення даних у DataGridView
+                        dataGridView1.DataSource = table;
+                    }
+                }
             }
         }
         private void button5_Click(object sender, EventArgs e)
