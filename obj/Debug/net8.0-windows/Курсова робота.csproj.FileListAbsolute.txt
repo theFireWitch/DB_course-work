@@ -68,3 +68,4 @@ C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debu
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.Student.resources
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.ERROR.resources
 C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\_______ .4B452624.Up2Date
+C:\Users\MasterSheva\Desktop\Курсова робота\DB_course-work\obj\Debug\net8.0-windows\Курсова_робота.Properties.Resources.resources

@@ -30,6 +30,7 @@ namespace Курсова_робота
             string nodelogin = login_textbox.Text;
             string nodepassword = password_box.Text;
             bool sucses = true;
+            bool sucses2 = false;
             if (nodelogin != "" && nodepassword != "")
             {
                 var nodeLabels = await example.LogInId(nodelogin, nodepassword, sucses);
@@ -43,33 +44,41 @@ namespace Курсова_робота
                             {
                                 professor frmLogin1 = new professor(nodelogin);
                                 frmLogin1.ShowDialog();
+                                sucses2 = true;
                             }
                             else if (label == "Student")
                             {
                                 Student frmLogin1 = new Student(nodelogin);
                                 frmLogin1.ShowDialog();
+                                sucses2 = true;
                             }
                             else if (label == "Admin")
                             {
                                 Admin frmLogin1 = new Admin();
                                 frmLogin1.ShowDialog();
+                                sucses2 = true;
                             }
                             else
                             {
-                                ERROR frmLogin1 = new ERROR("Неправильний логін");
+                                ERROR frmLogin1 = new ERROR("Неправильний логін або пароль");
                                 frmLogin1.ShowDialog();
                             }
                         }
                         else
                         {
-                            ERROR frmLogin1 = new ERROR("Неправильний логін");
+                            ERROR frmLogin1 = new ERROR("Неправильний логін або пароль");
                             frmLogin1.ShowDialog();
                         }
                     }
                 }
                 else
                 {
-                    ERROR frmLogin1 = new ERROR("Неправильний логін");
+                    ERROR frmLogin1 = new ERROR("Неправильний логін або пароль");
+                    frmLogin1.ShowDialog();
+                }
+                if (!sucses2)
+                {
+                    ERROR frmLogin1 = new ERROR("Неправильний логін або пароль");
                     frmLogin1.ShowDialog();
                 }
             }
