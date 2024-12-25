@@ -169,9 +169,9 @@
             groupBox3.Controls.Add(button9);
             groupBox3.Controls.Add(groupBox4);
             groupBox3.Controls.Add(button8);
-            groupBox3.Location = new Point(12, 75);
+            groupBox3.Location = new Point(12, 72);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1033, 74);
+            groupBox3.Size = new Size(1033, 77);
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Visible = false;

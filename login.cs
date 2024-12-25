@@ -84,7 +84,7 @@ namespace Курсова_робота
             }
             else
             {
-                ERROR frmLogin1 = new ERROR("Введіть данні");
+                ERROR frmLogin1 = new ERROR("Введіть дані");
                 frmLogin1.ShowDialog();
             }
         }
